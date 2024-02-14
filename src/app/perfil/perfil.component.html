@@ -1,5 +1,5 @@
-<div class="row container-fluid container-full-height">
-    <div class="col-md-6 content d-flex justify-content-center align-items-center">
+<div class="row container-fluid container-full-height nopadding">
+    <div class="col-md-6 content col-sm-12 d-flex justify-content-center align-items-center"  [ngClass]="{'content': isTrue, 'content-error': !isTrue}">
         <div>
             <div class="card">
                 <h5 class="card-title">Título do Card</h5>
@@ -18,7 +18,7 @@
             </div>
         </div>
     </div>
-    <div class="col-md-6 d-flex justify-content-center align-items-center">
+    <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
         <h1>teste</h1>
     </div>
 </div>

@@ -1,12 +1,23 @@
-.content{
-    background-color: orangered;
+.content {
+  background-color: orangered !important;
 
 }
+
+.content-error {
+  background-color: green !important;
+}
+
+
 
 .container-full-height {
-    height: 100vh;
-  }
-.btn{
-    width: 40%;
+  height: 100vh;
 }
 
+.btn {
+  width: 40%;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}

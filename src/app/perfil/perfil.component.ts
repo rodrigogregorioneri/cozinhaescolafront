@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './perfil.component.scss'
 })
 export class PerfilComponent {
+  isStyleChanged = true;
+
 
 }
