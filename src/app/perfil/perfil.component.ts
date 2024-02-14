@@ -8,14 +8,8 @@ import { PerfilServiceService  } from '../perfil-service.service';
   templateUrl: './perfil.component.html',
   styleUrl: './perfil.component.scss'
 })
-<<<<<<< HEAD
-export class PerfilComponent {
-  isStyleChanged = true;
-
-=======
 export class PerfilComponent implements OnInit {
   dados: any;
->>>>>>> master
 
   constructor(private perfilServiceService: PerfilServiceService) { }
 
